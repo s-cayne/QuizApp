@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WAIT, IS THAT TRUE?</string>
+    <string name="question_1">Can dogs look up?</string>
+    <string name="question_2">Hydrogen peroxide hastens healing.</string>
+    <string name="question_3">What are tomatoes?</string>
+    <string name="question_4">Cracking your knuckles leads to arthritis.</string>
+    <string name="question_5">Eating food within 5 seconds of dropping it on the floor is safe</string>
+    <string name="question_6">The Great Wall of China is...</string>
+    <string name="question_7">Eating chocolate does not give you _______ </string>
+</resources>

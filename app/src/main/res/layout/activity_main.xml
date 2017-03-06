@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="left"
+        tools:context="com.example.android.project3.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a quiz on popular myths"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="17sp"
+            android:textColor="#e91e63"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            style="@style/defaultForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1"/>
+
+        <!--checkboxes-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/q1radioA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:fontFamily="sans-serif"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q1radioB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:fontFamily="sans-serif"
+                android:text="No"/>
+
+        </RadioGroup>
+
+    <TextView
+        style="@style/defaultForAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2"/>
+
+        <!--possible answers for question 2-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/q2radioA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="True"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"/>
+
+
+            <RadioButton
+                android:id="@+id/q2radioB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="False"/>
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/defaultForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3"/>
+
+        <!--possible answers for question 3-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q3radioB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Fruit"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
+                />
+
+            <RadioButton
+                android:id="@+id/q3radioA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Vegetable"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/defaultForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_4"/>
+
+        <!--possible answers for question 4-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q4radioA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="True"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"/>
+
+            <RadioButton
+                android:id="@+id/q4radioB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="False"/>
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/defaultForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_5"/>
+
+        <!--possible answers for question 5-->
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q5radioA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="True"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"/>
+
+            <RadioButton
+                android:id="@+id/q5radioB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="False"/>
+
+    </RadioGroup>
+
+        <TextView
+            style="@style/defaultForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_6"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/q6checkA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="visible from space"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                />
+
+            <CheckBox
+                android:id="@+id/q6checkB"
+                android:layout_toRightOf="@id/q6checkA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="not visible from space"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                />
+
+            <CheckBox
+                android:id="@+id/q6checkC"
+                android:layout_below="@id/q6checkA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="not a continuous line"
+                android:layout_marginBottom="24dp"
+                />
+
+            <CheckBox
+                android:id="@+id/q6checkD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/q6checkC"
+                android:layout_below="@id/q6checkB"
+                android:layout_marginRight="16dp"
+                android:text="2000 years old"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/defaultForAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_7"
+            />
+        <EditText
+            android:id="@+id/q7text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:hint="starts with an A" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+        <Button
+            android:id="@+id/button_2"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="reset"
+            android:textAllCaps="true"
+            android:onClick="reset"/>
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="confirm"
+            android:textAllCaps="true"
+            android:onClick="checkAnswers"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
